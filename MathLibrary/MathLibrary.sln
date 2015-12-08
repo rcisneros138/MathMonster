@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "MathLibrary\MathLibrary.csproj", "{312DD728-8087-4FCF-8EE7-54F78A73211C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathConsole", "MathConsole\MathConsole.csproj", "{89C0D970-F705-41C8-A8A9-A4583023A0F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{312DD728-8087-4FCF-8EE7-54F78A73211C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{312DD728-8087-4FCF-8EE7-54F78A73211C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{312DD728-8087-4FCF-8EE7-54F78A73211C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C0D970-F705-41C8-A8A9-A4583023A0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C0D970-F705-41C8-A8A9-A4583023A0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C0D970-F705-41C8-A8A9-A4583023A0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C0D970-F705-41C8-A8A9-A4583023A0F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
