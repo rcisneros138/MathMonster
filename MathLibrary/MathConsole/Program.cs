@@ -10,10 +10,12 @@ namespace MathConsole
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            //FigureNum figureNum = new FigureNum();
-            //figureNum.getNumber();
+            HappyNum happy = new HappyNum();
+            happy.iterateToNumber(13); 
+            happy.getStuff();
 
 
             //Roman roman = new Roman();
@@ -21,11 +23,11 @@ namespace MathConsole
             //roman.checkList();
             //roman.displayRoman();
 
-            GreatestCommonDiv div = new GreatestCommonDiv();
-            div.askForNumber();
-            div.compare();
-            
-            
+            //GreatestCommonDiv div = new GreatestCommonDiv();
+            //div.askForNumber();
+            //div.compare();
+
+
         }
     }
 }

@@ -11,7 +11,7 @@ namespace MathLibrary
       
         public List<double> happyNums = new List<double>();
         public List<double> duplicates = new List<double>();
-        string originalNum;
+        
         double number;
         double counterNum;
         public void getNumber()
@@ -19,28 +19,32 @@ namespace MathLibrary
             Console.WriteLine("Enter a number: ");
             counterNum = Convert.ToDouble(Console.ReadLine());
             number = 1;
-            numberDoThing(number);
+            numberDoThing();
 
         }
-        public void numberDoThing(double number)
+        public void numberDoThing()
         {
-            while (happyNums.Count < counterNum)
+            for (int i = 1; i < counterNum; i++)
             {
-                number++;
-                getHappy(number);
+                getHappy(i);
             }
+           
         }
 
 
         public void getHappy(double number)
         {
-            if (number == 1)
+            int newNum = Convert.ToInt32(number);
+
+
+
+            if (newNum == 1)
             {
                 happyNums.Add(number);
             }
-            if (duplicates.Contains(number))
+            else if (duplicates.Contains(Convert.ToInt32(newNum)))
             {
-                checkNum(number);
+
             }
             else
             {
@@ -68,9 +72,17 @@ namespace MathLibrary
                 baseNum += Number;
 
             }
-         number = baseNum;
+            number = baseNum;
+            if (number !=1)
+            {
+                duplicates.Add(number);
+            }
             
-                //getHappy(finalNum);
+        }
+        public void giveList()
+        {
+            Console.WriteLine(String.Join(" ", happyNums));
+            Console.ReadLine();
         }
                 
 
