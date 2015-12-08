@@ -14,10 +14,16 @@ namespace MathConsole
         {
             //FigureNum figureNum = new FigureNum();
             //figureNum.getNumber();
-            Roman roman = new Roman();
-            roman.getNumber();
-            roman.checkList();
-            roman.displayRoman();
+
+
+            //Roman roman = new Roman();
+            //roman.getNumber();
+            //roman.checkList();
+            //roman.displayRoman();
+
+            GreatestCommonDiv div = new GreatestCommonDiv();
+            div.askForNumber();
+            div.compare();
             
             
         }
